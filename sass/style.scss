@@ -6,8 +6,7 @@
     width: 100%;
     max-width: 1170px;
     margin: 0 auto;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 15px 15px;
 }
   
 .container-fluid {
@@ -26,6 +25,7 @@ html {
 body {
     margin: 0;
     max-width: 100%;
+    background-color: #dddddd;
 }
 
 .hamburger {
@@ -161,11 +161,13 @@ body {
   
 .site {
     box-shadow: 0px 0px 20px #b2b2b2;
+    background-color: white;
 }
   
 main {
-    background: white;
-    margin: 70px auto;
+    background: #dddddd;
+    margin: 40px auto;
+    padding: 20px 0 20px 0; 
 }
   
 .inscription h1 {
@@ -218,17 +220,14 @@ input[name="to"] {
   
 .buttonredo {
     display: inline-block;
-  
-    .redo {
-        background-color: #f50;
-        color: white;
-        padding: 12px;
-        font-size: 18px;
-        border-radius: 5px;
-        border: none;
-        cursor: pointer;
-        margin: 15px;
-    }
+    background-color: #f50;
+    color: white;
+    padding: 12px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin: 15px;
 }
   
 .dates {
@@ -306,19 +305,20 @@ input[name="to"] {
   
 .linkshead {
     color: #555;
-    padding: 10px 25px 10px 25px;
+    border-bottom: 1px solid #e2e0e0;
   
     h1 {
         color: #7c7b7b;
-        padding: 10px 25px 10px 25px;
-        border-bottom: 1px solid #e2e0e0;
+        padding: 15px 25px 10px 25px;
+        margin: 0;
     }
 }
   
 .figure {
     padding: 60px;
-    width: auto;
-    text-align: center;
+    width: 75%;
+    height: auto;
+    margin: auto;
 }
 
 img {
@@ -342,6 +342,11 @@ img {
     }
 }
   
+.tabelka {
+    margin: 0 auto;
+    width: 70%;
+}
+
 table {
     border-collapse: collapse;  
 }
@@ -380,6 +385,10 @@ tr:hover {
 
 tr:hover td:nth-child(3) i {
     visibility: visible;
+}
+
+tr:last-child {
+    border-bottom: 1px solid #e2e0e0;
 }
 
 td a {
